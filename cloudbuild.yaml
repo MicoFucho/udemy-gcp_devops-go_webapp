@@ -1,0 +1,9 @@
+steps:
+- id: 'Go Build'
+  name: golang
+  args: ['go', 'build', '.', "-o", "web-greeting"]
+
+artifacts:
+  objects:
+    location: gs://bu-gcpdevops-labs-eusw
+    paths: ["./web-greeting"]
