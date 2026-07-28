@@ -1,7 +1,7 @@
 steps:
 - id: 'Go Build'
   name: golang
-  args: ['go', 'build', '.', '-o', 'web-greeting']
+  args: ['go', 'build', '-o', 'web-greeting', '.']
 
 artifacts:
   objects:
