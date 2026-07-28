@@ -7,3 +7,6 @@ artifacts:
   objects:
     location: gs://bu-gcpdevops-labs-eusw
     paths: ["./web-greeting"]
+
+options:
+  logging: CLOUD_LOGGING_ONLY
